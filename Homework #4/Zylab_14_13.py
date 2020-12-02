@@ -7,7 +7,7 @@ num_calls = 0
 
 
 def partition(user_ids, i, k):
-    pivot = user_ids[k] # pivot is the middle item in the list
+    pivot = user_ids[k] 
     index = i - 1
     for j in range(i, k):
         if user_ids[j] <= pivot:
